@@ -211,12 +211,11 @@
 }
 
 .item-4 .color-div {
-    position: sticky !important;
-    top: 10px !important;
-    background-color: ;
-    padding: 5px !important;
-    padding-bottom: 10px !important;
-    border-radius: 5px !important;
+    position: sticky;
+    top: 10px;
+    padding: 5px;
+    padding-bottom: 10px;
+    border-radius: 5px;
     border: 2px solid rgb(155, 143, 130);
 
 }
