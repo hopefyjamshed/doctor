@@ -1,10 +1,10 @@
 .body {
     display: grid;
     grid-template-areas:
-        'header header header header header'
-        'menu menu menu aside aside'
-        'main main main aside aside'
-        'footer footer footer footer footer';
+        'header header header header header header'
+        'menu menu menu aside aside aside'
+        'main main main aside aside aside'
+        'footer footer footer footer footer footer';
     gap: 5px;
     background-color: ;
 }
@@ -152,6 +152,30 @@
     grid-area: main;
 }
 
+.item-3>.dot {
+    display: flex;
+    background-color: ;
+    padding: 5px;
+    gap: 5px;
+    justify-content: center;
+}
+
+.dot>.product {
+    margin-left: 5px;
+    border: 1px solid gray;
+    width: 150px;
+    height: 150px;
+    margin-left: 6px;
+    background: linear-gradient(to left, rgb(212, 188, 188), rgb(219, 197, 197));
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+
+
+
 
 
 
@@ -184,9 +208,14 @@
     color: white;
 }
 
-.item-4 .stick {
+.item-4 .color-div {
     position: sticky;
     top: 10px;
+    background-color: burlywood;
+    padding: 5px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+
 }
 
 
