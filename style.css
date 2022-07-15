@@ -166,10 +166,10 @@
     width: 150px;
     height: 150px;
     margin-left: 6px;
-    background: linear-gradient(to left, rgb(212, 188, 188), rgb(219, 197, 197));
     color: white;
     text-align: center;
     border-radius: 5px;
+    background-color: rgb(204, 195, 195);
 }
 
 
@@ -201,6 +201,8 @@
     padding: ;
     font-size: small;
     padding: 4px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .item-4 a:hover {
@@ -209,12 +211,13 @@
 }
 
 .item-4 .color-div {
-    position: sticky;
-    top: 10px;
-    background-color: burlywood;
-    padding: 5px;
-    padding-bottom: 10px;
-    border-radius: 5px;
+    position: sticky !important;
+    top: 10px !important;
+    background-color: ;
+    padding: 5px !important;
+    padding-bottom: 10px !important;
+    border-radius: 5px !important;
+    border: 2px solid rgb(155, 143, 130);
 
 }
 
